@@ -12,7 +12,7 @@ class ReminderRepository(context: Context) {
         reminderDao = reminderRoomDatabase!!.reminderDao()
     }
 
-    fun getAllReminders() : LiveData<List<Reminder>> {
+    fun getAllReminders(): LiveData<List<Reminder>> {
         return reminderDao?.getAllReminders() ?: MutableLiveData(emptyList())
     }
 
