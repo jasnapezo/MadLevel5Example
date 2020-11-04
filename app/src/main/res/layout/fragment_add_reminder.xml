@@ -13,6 +13,7 @@
         android:padding="16dp"
         android:text="@string/add_your_reminder"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/reminder_name"
-            android:textSize="24sp" />
+            android:textSize="24sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
